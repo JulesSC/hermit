@@ -14,6 +14,34 @@
         display: flex;
         >div{
             width: 50vw;
+            ul{
+                grid-template-columns: 50% auto;
+                grid-template-rows: repeat(4, 260px);
+                grid-template-areas: ". gallery-1"
+                    "gallery-2 gallery-1"
+                    "gallery-2 gallery-3"
+                    ". gallery-3";
+    
+                    li {
+                        background-position: center;
+                        background-size: cover;
+                    }
+    
+                    #gallery-1 {
+                        background-image: url("../img/HC1.jpg");
+                        grid-area: gallery-1;
+                    }
+
+                    #gallery-2 {
+                        background-image: url("../img/HC5.jpg");
+                        grid-area: gallery-2;
+                    }
+    
+                    #gallery-3 {
+                        background-image: url("../img/HC2.jpg");
+                        grid-area: gallery-3;
+                    }
+            }
         }
         aside{
             width: 50vw;
