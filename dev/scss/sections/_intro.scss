@@ -3,11 +3,28 @@
 ============= */
 
 #intro{
-    margin-top: -90px;
-    
+    background-color: #F9D5AE;
+    height: 100%;
+    width: 100vw;
+    display: grid;
+    margin-top: -10px;
+
+    grid-template-areas: 
+    ". one ."
+    ". two .";
+    grid-template-columns:repeat(3, 1fr);
+
+    @include md{
+        grid-template-areas: 
+        "one two";
+        grid-template-columns:repeat(2, 1fr);
+    }
+
     .intro{
+        grid-area: one;
         background-color: #F9D5AE;
         height: 100%;
+        width: 100%;
         display: flex;
 
         aside{
@@ -15,6 +32,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            padding-bottom: 15%;
 
             div{
                 width: 50%;
@@ -24,10 +42,79 @@
                 text-align: center;
                 color: #2E1845;
 
-                h3{
-                    margin: 65px 0px;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+
+                padding: 50px 20px;
+                border: 5px white solid;
+                border-radius: 80px;
+                text-align: center;
+
+                margin-top: 50px;
+
+                @include md{
+                    padding: 80px 30px;
+                    max-width: 450px;
+                    margin-left: 40px;
+
                 }
+
+                @include lg{
+                    max-width: 100%;
+                }
+
+                h2{
+                    font-size: rem-calc(26);
+                    color: #2E1845;
+                    @include md{
+                        font-size: rem-calc(64); 
+                    }
+                }
+
+                h3{
+                    margin: 25px 0px;
+                    font-size: rem-calc(16);
+
+                    @include md{
+                        margin: 55px 0px;
+                        font-size: rem-calc(24); 
+                    }
+                }
+
+                p{
+                    font-size: rem-calc(16);
+                    line-height: rem-calc(20);
+                    padding: 0px 10px 16px 10px;
+
+                    @include md{
+                        font-size: rem-calc(18); 
+                        line-height: rem-calc(25);
+                        padding: 0px 16px 16px 16px;
+                    }
+                }
+            }
             }
         }
     }
+
+#crab{
+
+
+grid-area: two;
+display: flex;
+
+
+@include lg{
+grid-area: two;
+display: flex;
+width: 60vh;
+height: 100%;
+    
 }
+
+}
+
+
+
+

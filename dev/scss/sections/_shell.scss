@@ -21,25 +21,21 @@
         padding-bottom: 15%;
         
         @include xl{
-            padding: 7vh 16px 30vh 16px;
+            // padding: 7vh 16px 30vh 16px;
 
         }
-
-        height:69vh;
 
         @include xl{
             display: grid;
 		grid-template-areas: ". contain .";
 		grid-template-columns: auto 1200px auto;
         }
-     >ul{
+
+    >ul{
         border: 5px white solid;
         border-radius: 80px;
+        max-width: 1200px;
         // margin-top: 30px;
-
-        
-
-
 
         display: flex;
         justify-content: center;
@@ -62,11 +58,6 @@
 
 
         }
-
-        
-
-           
-    
             #shell-svgs{
 
                 display: grid;
@@ -138,6 +129,7 @@
             #shell-p{
                 >p{
                     padding: 0px 16px;
+                    text-align: center;
 
                     @include md{
                         padding: 0px 32px;
