@@ -907,10 +907,16 @@ footer > div ul li a:visited:active {
   border-radius: 80px;
   max-width: 1200px;
   margin: 50px 20px;
+  padding: 50px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+@media (min-width: 768px) {
+  #shell .shell > ul {
+    padding: 80px 30px;
+  }
 }
 @media (min-width: 1200px) {
   #shell .shell > ul {
