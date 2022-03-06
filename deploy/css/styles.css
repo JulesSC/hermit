@@ -652,25 +652,23 @@ footer > div ul li a:visited:active {
 /* =============
     Hero
 ============= */
-#hero-2 #tanWave {
-  width: 100%;
-  height: 270vh;
-  display: flex;
-}
 #hero-2 img {
   width: 100vw;
+}
+#hero-2 #tanWave {
+  width: 100%;
+  margin-top: -10vh;
 }
 
 /* =============
     Intro
 ============= */
-#intro #tanWave {
-  width: 100%;
-  margin-bottom: -15px;
+#intro {
+  margin-top: -90px;
 }
 #intro .intro {
   background-color: #F9D5AE;
-  height: 90vh;
+  height: 100%;
   display: flex;
 }
 #intro .intro aside {
@@ -695,40 +693,20 @@ footer > div ul li a:visited:active {
     Food
 ============= */
 #food {
-  margin-top: -80px;
+  height: 100%;
+  width: 100vw;
+  margin-top: -90px;
 }
 #food #orangeWave {
   width: 100%;
-  margin-bottom: -15px;
-}
-#food #star-1 {
-  position: absolute;
-  width: 200px;
-  height: 195px;
-  left: 35vw;
-  top: 105vh;
-  transform: rotate(300deg);
-}
-#food #star-2 {
-  position: absolute;
-  width: 200px;
-  height: 195px;
-  left: 3vw;
-  top: 125vh;
-  transform: rotate(156.28deg);
-}
-#food #star-3 {
-  position: absolute;
-  width: 150px;
-  height: 145px;
-  left: 40vw;
-  top: 180vh;
-  transform: rotate(178.72deg);
+  margin-bottom: -10px;
 }
 #food .food {
   background-color: #FFC3A4;
-  height: 90vh;
+  height: 100%;
+  width: 100%;
   display: flex;
+  padding-bottom: 15%;
 }
 #food .food > div {
   width: 50vw;
