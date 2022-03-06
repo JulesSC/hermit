@@ -821,6 +821,7 @@ footer > div ul li a:visited:active {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--purple);
 }
 #food .food aside div {
   width: 50%;
@@ -829,8 +830,35 @@ footer > div ul li a:visited:active {
   border-radius: 80px;
   text-align: center;
 }
+#food .food aside div h2 {
+  font-size: 1.625rem;
+}
+@media (min-width: 768px) {
+  #food .food aside div h2 {
+    font-size: 4rem;
+  }
+}
 #food .food aside div h3 {
-  margin: 65px 0px;
+  margin: 25px 0px;
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+  #food .food aside div h3 {
+    margin: 55px 0px;
+    font-size: 1.5rem;
+  }
+}
+#food .food aside div p {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  padding: 0px 10px 16px 10px;
+}
+@media (min-width: 768px) {
+  #food .food aside div p {
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    padding: 0px 16px 16px 16px;
+  }
 }
 
 /* =============
@@ -852,6 +880,7 @@ footer > div ul li a:visited:active {
   width: 100%;
   display: flex;
   padding-bottom: 15%;
+  color: var(--tan);
 }
 @media (min-width: 1200px) {
   #shell .shell {
@@ -880,6 +909,24 @@ footer > div ul li a:visited:active {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+#shell .shell > ul #shell-title h2 {
+  font-size: 1.625rem;
+}
+@media (min-width: 768px) {
+  #shell .shell > ul #shell-title h2 {
+    font-size: 4rem;
+  }
+}
+#shell .shell > ul #shell-title h3 {
+  margin: 25px 0px;
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+  #shell .shell > ul #shell-title h3 {
+    margin: 55px 0px;
+    font-size: 1.5rem;
+  }
 }
 #shell .shell > ul #shell-svgs {
   display: grid;
@@ -928,13 +975,17 @@ footer > div ul li a:visited:active {
     display: list-item;
   }
 }
-#shell .shell > ul #shell-p > p {
-  padding: 0px 16px;
+#shell .shell > ul #shell-p > p p {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  padding: 0px 10px 16px 10px;
   text-align: center;
 }
 @media (min-width: 768px) {
-  #shell .shell > ul #shell-p > p {
-    padding: 0px 32px;
+  #shell .shell > ul #shell-p > p p {
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    padding: 0px 16px 16px 16px;
   }
 }
 
