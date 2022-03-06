@@ -906,7 +906,7 @@ footer > div ul li a:visited:active {
   border: 5px white solid;
   border-radius: 80px;
   max-width: 1200px;
-  padding: 50px 20px;
+  margin: 50px 20px;
   display: flex;
   justify-content: center;
   align-items: center;

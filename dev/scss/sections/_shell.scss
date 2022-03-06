@@ -20,11 +20,6 @@
         display: flex;
         padding-bottom: 15%;
         color: var(--tan);
-        
-        @include xl{
-            // padding: 7vh 16px 30vh 16px;
-
-        }
 
         @include xl{
             display: grid;
@@ -36,7 +31,7 @@
         border: 5px white solid;
         border-radius: 80px;
         max-width: 1200px;
-        padding: 50px 20px;
+        margin: 50px 20px;
         // margin-top: 30px;
 
         display: flex;
