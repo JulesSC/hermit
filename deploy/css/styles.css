@@ -761,7 +761,9 @@ footer > div ul li a:visited:active {
     Shell
 ============= */
 #shell {
-  margin-top: -80px;
+  height: 100%;
+  width: 100vw;
+  margin-top: -90px;
 }
 #shell #pinkWave {
   width: 100%;
@@ -770,8 +772,10 @@ footer > div ul li a:visited:active {
 }
 #shell .shell {
   background-color: #C26B7A;
-  padding: 7vh 16px 14vh 16px;
+  height: 100%;
+  width: 100%;
   display: flex;
+  padding-bottom: 15%;
   height: 69vh;
 }
 @media (min-width: 1200px) {

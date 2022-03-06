@@ -3,10 +3,9 @@
 ============= */
 
 #shell{
-    
-
-    
-    margin-top: -80px;
+    height: 100%;
+    width: 100vw;
+    margin-top: -90px;
     
     #pinkWave{
         width: 100%;
@@ -16,10 +15,10 @@
 
     .shell{
         background-color: #C26B7A;
-        // margin-top: -30px;
-        // z-index: 3;
-        padding: 7vh 16px 14vh 16px;
+        height: 100%;
+        width: 100%;
         display: flex;
+        padding-bottom: 15%;
         
         @include xl{
             padding: 7vh 16px 30vh 16px;
