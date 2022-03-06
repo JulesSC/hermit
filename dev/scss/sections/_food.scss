@@ -8,6 +8,30 @@
         width: 100%;
         margin-bottom: -15px;
     }
+    #star-1{
+        position: absolute;
+        width: 200px;
+        height: 195px;
+        left: 467.65px;
+        top: 730px;
+        transform: rotate(300deg);
+    }
+    #star-2{
+        position: absolute;
+        width: 200px;
+        height: 195px;
+        left: 65px;
+        top: 850px;
+        transform: rotate(156.28deg);
+    }
+    #star-3{
+        position: absolute;
+        width: 150px;
+        height: 145px;
+        left: 600px;
+        top: 1250px;
+        transform: rotate(178.72deg);
+    }
     .food{
         background-color: #FFC3A4;
         height: 90vh;
